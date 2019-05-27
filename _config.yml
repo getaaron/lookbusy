@@ -1,5 +1,5 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Look Busy                                 # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 1438083050                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -9,9 +9,9 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Look Busy                                 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : $4.99                                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Look busy — and professional!
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -34,17 +34,18 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Fake Events, Like Magic
-    description                           : Add important-looking (but secretly fake) events to next week’s calendar
-    fontawesome_icon_name                 : magic
+  - title                                 : Protect Your Focused Work Time
+    description                           : Add important-looking (but secretly fake) events to your calendar
+    fontawesome_icon_name                 : phone-slash
     
-  - title                                 : Native iOS Integration
-    description                           : Integrates with Calendar, Siri, and more
-    fontawesome_icon_name                 : mobile
-
   - title                                 : 100% Private
-    description                           : All processing happens on your device. We don’t see or sell any of it.
+    description                           : All processing happens on your device and we don’t see or sell any of it
     fontawesome_icon_name                 : user-secret
+
+  - title                                 : Avoids Conflicts
+    description                           : Won’t create fake events when you already have a real meeting
+    fontawesome_icon_name                 : calendar-check
+
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -75,8 +76,6 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
-
-
 
 
 
