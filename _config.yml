@@ -12,7 +12,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Look Busy                                 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : $4.99                                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Look busy — and professional!
+app_description                           : Look Busy scans your work calendar for open time slots and fills them with realistic-looking (but secretly fake) work events. Your co-workers will avoid scheduling conference calls and meetings, and you can spend the time focusing and getting actual work done.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -22,7 +22,7 @@ enable_smart_app_banner                   : true                                
 your_name                                 : Aaron Brager                                
 your_link                                 : mailto:aaron@lookbusy.app
 your_city                                 :                                 
-email_address                             :
+email_address                             : aaron@lookbusy.app
 facebook_username                         :                                           
 instagram_username                        : 
 twitter_username                          : getaaron
