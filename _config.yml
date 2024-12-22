@@ -3,6 +3,7 @@ page_title                                : Look Busy                           
 
 # App Info
 ios_app_id                                : 1438083050                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -28,6 +29,7 @@ instagram_username                        :
 twitter_username                          : 
 github_username                           : 
 youtube_username                          :
+mastodon_link                             : https://mastodon.social/@ebaehr
 
 
 
