@@ -12,6 +12,17 @@
 	<!-- Canonical URL -->
 	<link rel="canonical" href="https://lookbusy.app">
 
+	<!-- Open Graph -->
+	<meta property="og:image" content="{{ site.social_image | relative_url }}">
+	<meta property="og:title" content="{{ site.page_title }}">
+	<meta property="og:description" content="{{ site.meta_description }}">
+	<meta property="og:url" content="https://lookbusy.app">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="{{ site.page_title }}">
+
+	<!-- Robots -->
+	<meta name="robots" content="index, follow">
+
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
 		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
